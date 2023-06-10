@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2 style="text-align: center;">Calculate Simple Interest</h2>
+        <div class="flex-container">
+            Principle: <input type="number" id="p"><br/>
+            Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" id="t"><br/>
+            Rate: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="r"><br/>
+            
+        </div>
+        <div class="flex-container-box">
+        <div><button class="btn btn-primary" onclick="Interest()">Calculate</button></div>
+        <div><button class="btn btn-danger" onclick="end()">End</button></div>
+    </div>
+    <div class="flex-container-box1">
+        <div id="flex-result"></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.container-1{border: 1px solid black;
+    background-color:rgb(115,166,173);
+    margin: 30px;
+    color: white}
+.flex-container-box{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;}
+.flex-container-box1{border: 1px solid black;padding: 20px; background-color: rgb(155,151,178);}
+.flex-container-box1 div{
+    padding: 10px; justify-content: center;}
+.flex-container{
+    padding: 10px;}
+input{
+    font-size: 20px;
+    width: 420px;
+    padding: 5px;
+    margin: 10px;}
